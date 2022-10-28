@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+.container {
+    display: flex;
+    background: hsla(0, 0%, 100%, 0.75);
+    justify-content: center;
+    flex-wrap: nowrap;
+
+}
+
+.container>div:first-child {
+    background: hsl(31, 77%, 52%);
+}
+
+.container>:nth-child(2) {
+    background: hsl(184, 100%, 22%);
+}
+
+.container>div:last-child {
+    background: hsl(184, 33%, 10%);
+}
+
+
+.box {
+    width: 375px;
+    color: hsla(0, 0%, 100%, 0.75);
+    height: 300px;
+    padding: 2rem;
+    font-size: 15px;
+    margin-top: 8rem;
+
+
+}
+
+.box a {
+    color: hsl(0, 0%, 95%);
+    margin-bottom: 2rem;
+    border: 1px solid white;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0.5rem;
+
+}
