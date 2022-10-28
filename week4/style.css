@@ -1,0 +1,101 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(35, 35, 228);
+}
+
+.login {
+    width: 80%;
+    margin: 0 auto;
+    padding: 1em;
+    display: flex;
+    flex-flow: row nowrap;
+
+
+}
+
+section {
+    flex-basis: 57%;
+    margin-right: 10%;
+}
+
+fieldset {
+    border: 3px solid rgb(185, 176, 176);
+    border-radius: 10px;
+    margin: 2rem;
+    padding: 30px;
+
+}
+
+legend {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+    color: white;
+
+}
+
+button {
+    font-size: 1rem;
+    margin: 2rem 0;
+    background-color: #bb342f;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+}
+
+.zuriregister {
+    width: 50%;
+    margin: auto;
+    padding: 10px;
+    display: flex;
+    flex-flow: row nowrap;
+
+}
+
+label {
+    display: block;
+    padding: 0.3rem;
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+}
+
+input:not([type="radio"]):not([type="checkbox"]),
+textarea,
+select {
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    padding: 0 1rem;
+    margin-bottom: 2rem;
+    width: 20rem;
+    border-radius: 5px;
+    height: 40px;
+    border: none;
+
+}
+
+button:hover {
+    color: black;
+
+
+}
+a {
+    color: white;
+    font-size: 1rem;
+
+}
